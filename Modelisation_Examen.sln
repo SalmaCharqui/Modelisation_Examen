@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modelisation_Examen", "Modelisation_Examen\Modelisation_Examen.csproj", "{23D3A78F-BC04-4A78-BAFA-FE39C1EB0DD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23D3A78F-BC04-4A78-BAFA-FE39C1EB0DD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23D3A78F-BC04-4A78-BAFA-FE39C1EB0DD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23D3A78F-BC04-4A78-BAFA-FE39C1EB0DD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23D3A78F-BC04-4A78-BAFA-FE39C1EB0DD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA23D7CC-BA8A-4DFD-B9EF-BFE01DBAC020}
+	EndGlobalSection
+EndGlobal
