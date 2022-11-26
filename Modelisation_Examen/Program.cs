@@ -10,12 +10,14 @@ namespace Modelisation_d_examen
 {
     internal class Program
     {
-        class evaluation
+       internal class evaluation
         {
             private int note;
+            private String matiere;
+            private String intitule;
 
         }
-        class Candidat
+       internal class Candidat
         {
             private String nom;
             private String prenom;
@@ -28,13 +30,8 @@ namespace Modelisation_d_examen
             }
 
         }
-        class Specialite
-        {
-            private String matiere;
-            private String intitule;
-
-        }
-        class date
+       
+       internal class date
         {
             private int date_debut;
             private int date_fin;
@@ -45,8 +42,12 @@ namespace Modelisation_d_examen
             }
 
         }
-        class reponse
+        internal class reponse
         {
+            public reponse()
+            {
+
+            }
             private string rep;
             public reponse(string rep)
             {
@@ -56,16 +57,17 @@ namespace Modelisation_d_examen
 
 
         }
-        class Vraie : reponse
+        class Vraie:reponse
         {
             private int nbrgagne = 0;
-            public void incrementernbr()
+         public void incrementernbr()
             {
                 nbrgagne++;
             }
         }
-        class faux : reponse
+        class Faux:reponse
         {
+           
             private int nbrgagne;
             public int Nbrg { get { return nbrgagne; } set { nbrgagne = value; } }
             public void decrementernbr()
@@ -79,8 +81,12 @@ namespace Modelisation_d_examen
 
 
         }
-        class Question
+       internal class Question
         {
+            public Question()
+            {
+
+            }
             private string question;
             private int nbrNotes;
             public String Q { get { return question; } set { question = value; } }
@@ -104,11 +110,11 @@ namespace Modelisation_d_examen
         }
         class degre_certitude
         {
-            public void peusur(string r, string q)
+            public void peusur(string r,string q)
             {
 
             }
-            public void moysur(string r, string q)
+            public void moysur(string r,string q)
             {
 
             }
@@ -141,7 +147,6 @@ namespace Modelisation_d_examen
         }
     }
 }
-
 
 
 
